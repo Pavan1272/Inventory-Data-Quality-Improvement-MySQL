@@ -44,7 +44,9 @@ The dataset contains the following columns:
 - Applied constraints to maintain future data integrity
 
 ---
----
+## Author
+Pavan Attarkar
+Aspiring Data Analyst | SQL | Data Cleaning | Business Intelligence
 
 ## 📊 Final Validation Summary
 
@@ -56,7 +58,10 @@ SUM(Profit) AS TotalProfit,
 SUM(Price * Quantity) AS TotalRevenue
 FROM inventory_clean;
 
+SELECT SKU,
+SUM(Profit * Quantity) AS TotalProductProfit
+FROM inventory_clean
+GROUP BY SKU
+ORDER BY TotalProductProfit DESC
+LIMIT 5;
 
-## Author
-Pavan Attarkar
-Aspiring Data Analyst | SQL | Data Cleaning | Business Intelligence
