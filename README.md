@@ -46,7 +46,7 @@ The dataset contains the following columns:
 ---
 ## Author
 Pavan Attarkar
-Aspiring Data Analyst | SQL | Data Cleaning | Business Intelligence
+-Aspiring Data Analyst | SQL | Data Cleaning | Business Intelligence
 
 ## 📊 Final Validation Summary
 
